@@ -4,7 +4,7 @@
     --grayish-blue: hsl(220, 15%, 55%);
     --dark-blue: hsl(218, 44%, 22%);
 
-    --pharagraph: 15px;
+    --pharagraph: 20px;
 }
 body{
     margin: 0;
@@ -50,7 +50,7 @@ body{
 .subtitle{
     margin-bottom: 40px;
 
-    font-size: 20px;
+    font-size: var(--pharagraph);
     font-weight: 400;
 
     color:var(--grayish-blue);
