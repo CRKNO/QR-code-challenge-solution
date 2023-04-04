@@ -4,7 +4,8 @@
     --grayish-blue: hsl(220, 15%, 55%);
     --dark-blue: hsl(218, 44%, 22%);
 
-    --pharagraph: 20px;
+    --pharagraph: 15px;
+    --title: 21px;
 }
 body{
     margin: 0;
@@ -22,27 +23,29 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 17px;
 
-    width: 335px;
+    gap: 20px;
+    width: 320px;
 
     background-color: var(--white);
 }
 .qr-image{
     width: 90%;
-    margin-block: 5%;
-    margin-inline: 5%;
-    border-radius: 20px;
+    margin-top: 5%;
+    border-radius: 10px;
 }
 .title,
 .subtitle{
     margin:0;
+    padding-inline:28px;
+
     text-align: center;
 }
 .title{
     margin-bottom: 20px;
 
-    font-size: 28px;
+    font-size: var(--title);
     font-weight: 700;
 
     color:var(--dark-blue)
